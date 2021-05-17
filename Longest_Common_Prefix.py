@@ -1,6 +1,6 @@
 class Solution:
 
-    def longestcommonprefix(self, strs: list[str]) -> str:
+    def longestcommonprefix(self, strs):
         if not strs:
             return ''
         if len(strs) == 1:
@@ -16,5 +16,5 @@ class Solution:
         return prefix
 
 
-aa = ["flower", "flow", "flight"]
+aa = ["flower", "flow", "fight"]
 print(Solution().longestcommonprefix(aa))
